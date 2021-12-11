@@ -1,0 +1,17 @@
+spring:
+  data:
+    mongodb:
+           uri: mongodb://accountAdmin01:admin01@127.0.0.1:27017/omb
+             # user: userMongo
+             # password: mongo$M0nG0
+             #uri: mongodb://root:root@127.0.0.1:27017/omb
+             #uri: mongodb://userMongo:mongo$M0nG0@127.0.0.1:27017/obm
+             # uri: mongodb://userMongo:mongo$M0nG0@cluster0.juorh.mongodb.net/myFirstDatabase?retryWrites=true&w=majority
+             #  authentication-database: admin
+             #  username: userMongo
+             #  password: mongo$M0nG0
+             #  database: omb
+      #  port: 27017
+      #  host: localhost
+server:
+  port : 8090
